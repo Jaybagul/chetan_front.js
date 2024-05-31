@@ -1,0 +1,685 @@
+body{
+    font-family: Georgia, serif;
+}
+
+button img{
+    height:30px;
+    width: 30px;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+button{
+    border: none;
+    background: transparent
+    
+}
+
+.carousel-inner {
+    width: 100%;
+  }
+  .carousel-item {
+    position: relative;
+  }
+  .carousel-item .text {
+    position: absolute;
+    top: 70%;
+  }
+  .text h1, .text h6 {
+    color: white;
+  }
+  .text h6 {
+    position: relative;
+    bottom: 7%;
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-item .text {
+      top: 50%;
+      transform: translateY(-50%);
+      text-align: center;
+      width: 100%;
+      padding: 0 15px;
+    }
+    .text h1 {
+      font-size: 1.5rem;
+    }
+    .text h6 {
+      font-size: 1rem;
+    }
+    .btn {
+      font-size: 0.8rem;
+      padding: 8px 12px;
+    }
+  }
+  .star {
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.star-icon {
+    font-size: 1.5rem; /* Adjust the size of stars */
+}
+
+.star-rating {
+    margin-top: 5px;
+}
+
+  
+  @media (max-width: 768px) {
+    .star {
+      height: auto;
+      padding: 10px 0;
+    }
+    .star h6 {
+      font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+  }
+.pic{
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+
+    
+    width: 60%;
+}
+.pic img {
+    width: 250px;
+}
+.pic p{
+    margin: 0px 0px 5px 0px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.slider-img{
+    display: flex;
+    overflow: auto;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+.rightOne{
+    position: absolute;
+    right: -2%;
+    bottom: 50%;
+    font-size: 38px;
+}
+.slider{
+    /* background-color: red; */
+    width: 90%;
+    margin: auto;
+    
+    position: relative;
+}
+.leftOne{
+    position: absolute;
+    left: -2%;
+    bottom: 50%;
+    font-size: 38px;
+}
+
+.pic .Add{
+    background-color: red;
+    margin-left: 55px;
+    margin-top: 15px;
+    padding: 3px 15px;
+    a{
+        color: white;
+    }
+}
+
+
+
+
+.pic2{
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    width: 60%;
+}
+.pic2 img {
+    width: 250px;
+}
+.pic2 p{
+    margin: 0px 0px 5px 0px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.slider-img2{
+    display: flex;
+    overflow: auto;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+.rightOne2{
+    position: absolute;
+    right: -2%;
+    bottom: 50%;
+    font-size: 38px;
+}
+.slider2{
+    /* background-color: red; */
+    width: 90%;
+    margin: auto;
+    
+    position: relative;
+}
+.leftOne2{
+    position: absolute;
+    left: -2%;
+    bottom: 50%;
+    font-size: 38px;
+}
+.pic2 .Add{
+    background-color: red;
+    margin-left: 55px;
+    margin-top: 15px;
+    padding: 3px 15px;
+    a{
+        color: white;
+    }
+}
+.bigimg h2
+{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: white;
+}
+
+.smallimg h2
+{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: white;
+}
+.watchimg img {
+    max-width: 100%;
+    height: auto;
+}
+
+.watchimg h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
+}
+
+.watchimg button {
+    position: absolute;
+    top: 75%;
+    left: 52%;
+    transform: translateX(-50%);
+    color: black;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    border: none;
+}
+
+
+  .carousel-item {
+    position: relative;
+    text-align: center;
+  }
+
+  .carousel-item img {
+    width: 100%;
+    border-radius: 10px;   }
+
+  .carousel-item .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); }
+
+  .carousel-item .text h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .carousel-item .text button {
+    font-size: 0.9rem; 
+    padding: 0.4rem 0.8rem; 
+    margin: 0.3rem; 
+  }
+.icon {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.icon img {
+    height: 30px;
+    width: 13%;
+    margin-bottom: 5%;
+}
+
+.icon h4 {
+    font-size: 15px;
+    margin-top: 3%;
+}
+
+.icon p {
+    margin-top: 7%;
+}
+
+@media (min-width: 768px) {
+    .icon img {
+        width: 20%; 
+    }
+}
+
+@media (min-width: 992px) {
+    .icon img {
+        width: 15%; 
+    }
+}
+
+.footerlast {
+    padding: 20px;
+    background-color: #f4f3f3;
+}
+
+.footer {
+    width: 80%;
+    margin: auto;
+}
+
+.footerleft,
+.footercenter,
+.footerright {
+    margin-bottom: 20px;
+}
+
+.footerleft h6,
+.footercenter h6,
+.footer2 h6,
+.footer3 h6 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footerleft p,
+.footercenter p,
+.footer2 p,
+.footer3 p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.footercenter img {
+    height: 70px;
+}
+
+.gpay {
+    height: 40px;
+}
+
+@media (max-width: 991.98px) { 
+    .footerleft, .footercenter, .footerright {
+        text-align: center;
+    }
+
+    .footer2, .footer3 {
+        position: static;
+        left: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 992px) { 
+    .footer {
+        justify-content: space-between;
+    }
+}
+
+
+
+
+
+.pic3{
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    width: 60%;
+}
+.pic3 img {
+    width: 100%;
+}
+.pic3 p{
+    margin: 0px 0px 5px 0px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.slider-img3{
+    display: flex;
+    overflow: auto;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+.rightOne3{
+    position: absolute;
+    right: -2%;
+    bottom: 50%;
+    font-size: 38px;
+}
+.slider3{
+    /* background-color: red; */
+    width: 90%;
+    margin: auto;
+    
+    position: relative;
+}
+.leftOne3{
+    position: absolute;
+    left: -2%;
+    bottom: 50%;
+    font-size: 38px;
+}
+.pic3 .Add{
+    background-color: red;
+    margin-left: 55px;
+    margin-top: 15px;
+    padding: 3px 15px;
+    a{
+        color: white;
+    }
+}
+.sliderBothImg{
+    background-color: red;
+    width: 250px;
+    position: relative;
+}
+.img1{
+    display: block;
+}
+.sliderBothImg:hover .img1{
+    display: none;
+}
+.img2{
+    display: none;
+}
+.sliderBothImg:hover .img2{
+    display: block;
+}
+
+.slider-img5{
+    display: flex;
+    overflow: auto;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+
+
+
+
+.slider-img6{
+    display: flex;
+    overflow: auto;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    /* background-color: red; */
+}
+.slider6{
+    /* background-color: red; */
+    width: 90%;
+    margin: auto;
+    
+    position: relative;
+}
+.rightOne6{
+    position: absolute;
+    right: -2%;
+    bottom: 50%;
+    font-size: 38px;
+}
+.leftOne6{
+    position: absolute;
+    left: -2%;
+    bottom: 50%;
+    font-size: 38px;
+}
+
+
+
+
+.slider-img7{
+    display: flex;
+    overflow: auto;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    /* background-color: red; */
+}
+.slider7{
+    /* background-color: red; */
+    width: 90%;
+    margin: auto;
+    
+    position: relative;
+}
+.rightOne7{
+    position: absolute;
+    right: -2%;
+    bottom: 50%;
+    font-size: 38px;
+}
+.leftOne7{
+    position: absolute;
+    left: -2%;
+    bottom: 50%;
+    font-size: 38px;
+}
+
+
+
+
+
+
+.slider-img8{
+    display: flex;
+    overflow: auto;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    /* background-color: red; */
+}
+.slider8{
+    /* background-color: red; */
+    width: 90%;
+    margin: auto;
+    
+    position: relative;
+}
+.rightOne8{
+    position: absolute;
+    right: -2%;
+    bottom: 50%;
+    font-size: 38px;
+}
+.leftOne8{
+    position: absolute;
+    left: -2%;
+    bottom: 50%;
+    font-size: 38px;
+}
+
+
+
+
+.slider-img9{
+    display: flex;
+    overflow: auto;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    /* background-color: red; */
+}
+.slider9{
+    /* background-color: red; */
+    width: 90%;
+    margin: auto;
+    
+    position: relative;
+}
+.rightOne9{
+    position: absolute;
+    right: -2%;
+    bottom: 50%;
+    font-size: 38px;
+}
+.leftOne9{
+    position: absolute;
+    left: -2%;
+    bottom: 50%;
+    font-size: 38px;
+}
+.btn2
+{
+    outline: none;
+    text-decoration: none;
+}
+
+
+.pic4bothimg{
+    background-color: red;
+    width: 250px;
+    position: relative;
+}
+.shirt1{
+    display: block;
+}
+.pic4bothimg:hover .shirt1{
+    display: none;
+}
+.shirt2{
+    display: none;
+}
+.pic4bothimg:hover .shirt2{
+    display: block;
+}
+
+.pic4{
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    width: 60%;
+}
+.pic4 img {
+    width: 100%;
+    height: 100vh;
+}
+.pic4 p{
+    margin: 0px 0px 5px 0px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.pic4 .Add{
+    background-color: red;
+    margin-left: 55px;
+    margin-top: 15px;
+    padding: 3px 15px;
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.icon img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+.icon h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.icon p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.slider9 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-img9 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;    
+}
+
+.pic9 {
+    margin: 10px;
+    text-align: center; 
+}
+
+.pic9 img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 767px) {
+    .slider-img9 {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .slider-img9 {
+        flex-direction: row;
+        justify-content: center; 
+    }
+}
+
+@media (min-width: 992px) {
+    .slider-img9 {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+.descriptionImg {
+    max-width: 100%;
+    height: auto;
+}
+.size-option {
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 5px;
+}
+.icon img {
+    width: 30%;
+    height: 35px;
+}
+.icon h4 {
+    font-size: 14px;
+}
+
+.icon img {
+    max-width: 100%; /* Ensures the image doesn't exceed its container's width */
+    height: auto; /* Maintains the aspect ratio of the image */
+}
+
+
+
